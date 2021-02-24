@@ -3,7 +3,7 @@ require("@nomiclabs/hardhat-waffle");
 
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY
 const MNEMONIC_PATH = "m/44'/60'/0'/0";
-const MAINNET_MNEMONIC = process.env.MAINNET_MNEONIC
+const MAINNET_MNEMONIC = process.env.MAINNET_MNEMONIC
 const DEFAULT_BLOCK_GAS_LIMIT = 10000000;
 const DEFAULT_GAS_PRICE = 52000000000;
 const DEFAULT_GAS_MUL = 5;
